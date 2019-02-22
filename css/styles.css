@@ -897,7 +897,7 @@ summary {
 .lang_select-wrapper:active,
 .tone_input:active + label,
 .required-input:active + label,
-.translate_input:active + figure,
+.translate_input:active + label,
 .upload-table_btn:active,
 .lang_btn:active {
   background-color: orange;
@@ -909,7 +909,7 @@ summary {
 .lang_select-wrapper:hover,
 .tone_input:hover + label,
 .required-input:hover + label,
-.translate_input:hover + figure,
+.translate_input:hover + label,
 .upload-table_btn:focus,
 .lang_btn:focus {
   outline: 1px solid blue;
@@ -927,7 +927,7 @@ summary {
 .lang_select-wrapper:focus,
 .tone_input:focus + label,
 .required-input:focus + label,
-.translate_input:focus + figure,
+.translate_input:focus + label,
 .upload-table_btn:focus,
 .lang_btn:focus {
   outline: 2px solid blue;
@@ -948,7 +948,7 @@ summary {
 }
 
 .tone_input:checked + label,
-.translate_input:checked + figure,
+.translate_input:checked + label,
 .required-input:checked + label {
   box-shadow: inset 0 0 0 6px #76a7e1;
   border-radius: 4px;
@@ -998,7 +998,7 @@ summary {
   text-align: center;
 }
 
-.required-input:checked + label:after {
+/* .required-input:checked + label:after {
   position: absolute;
   top: -4px;
   right: -6px;
@@ -1012,7 +1012,7 @@ summary {
   width: 22px;
   height: 15px;
   border-radius: 50%;
-}
+} */
 
 .payment-form_input_date::-webkit-inner-spin-button {
   display: none;
