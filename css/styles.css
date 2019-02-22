@@ -957,7 +957,7 @@ summary {
   transition: all 275ms ease-in-out;
 }
 
-.payment_input:valid + .payment_valid:after {
+.payment_input:focus:valid + .payment_valid:after {
   content: "\2714";
   background: #fff;
   color: #76a7e1;
@@ -978,7 +978,7 @@ summary {
   opacity: 0.7;
 }
 
-.payment__input::placeholder {
+.payment_input::placeholder {
   font-size: 15px;
   opacity: 0.7;
   color: #6e768f;
@@ -998,7 +998,7 @@ summary {
   text-align: center;
 }
 
-/* .required-input:checked + label:after {
+.required-input:checked + label:after {
   position: absolute;
   top: -4px;
   right: -6px;
@@ -1012,7 +1012,7 @@ summary {
   width: 22px;
   height: 15px;
   border-radius: 50%;
-} */
+}
 
 .payment-form_input_date::-webkit-inner-spin-button {
   display: none;
