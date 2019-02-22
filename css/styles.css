@@ -28,7 +28,7 @@ h1 {
 
 .document_header {
   max-width: 1140px;
-  margin: 40px auto 0 auto;
+  margin: 20px auto 0 auto;
   padding: 0 15px;
   box-sizing: content-box;
 }
@@ -70,7 +70,7 @@ h1 {
 .main {
   padding: 10px;
   max-width: 1170px;
-  margin: 60px auto;
+  margin: 8px auto 60px auto;
   overflow: hidden;
 }
 
@@ -119,7 +119,7 @@ h1 {
 }
 
 .order_wrapper {
-  flex-basis: 551px;
+ flex-basis: 470px;
   margin: 20px 0 20px 30px;
 }
 
@@ -154,7 +154,7 @@ h1 {
   flex-basis: 100%;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 65px auto;
+  margin: 0px auto 35px auto;
   line-height: 1.2;
 }
 
@@ -204,6 +204,7 @@ fieldset {
 
 .translate_select {
   position: relative;
+  display:inline-block;
 }
 
 .visually-hidden {
@@ -217,7 +218,7 @@ fieldset {
 .translate_figure {
   display: inline-block;
   background: #f7f7f9;
-  padding: 20px 80px;
+  padding: 20px 40px;
   border: 1px solid #dadae3;
   margin: 15px;
   min-width: 156px;
@@ -1000,19 +1001,17 @@ summary {
 
 .required-input:checked + label:after {
   position: absolute;
-  top: -4px;
-  right: -6px;
+  top: -3px;
+  right: -4px;
   color: #76a7e1;
   font-size: 30px;
-  z-index: 2;
-  font-family: FontAwesome;
-  content: "\f058";
+  z-index: 1;
+  content: '\2611';
   background: #fff;
   line-height: 15px;
   width: 22px;
   height: 15px;
-  border-radius: 50%;
-}
+ }
 
 .payment-form_input_date::-webkit-inner-spin-button {
   display: none;
@@ -1042,6 +1041,21 @@ summary {
 
 .lang_btn:first-child {
   margin-left: 52px;
+}
+
+.translate_input:checked + label:after {
+	top: -5px;
+    right: -6px;
+    content: '\2611';
+   	font-size: 30px;
+	background: #fff;
+	line-height: 15px;
+	width: 22px;
+	height: 15px;
+    color: #76a7e1;
+    position: absolute;
+    z-index: 1;
+    
 }
 
 @media screen and (max-width: 1200px) {
