@@ -46,6 +46,8 @@ h1 {
   border: 2px solid #c9d0e1;
   background: #eceef4;
   width: 171px;
+  white-space: nowrap;
+  width: 64px;
   color: #a5abc5;
   padding: 0 50px 0 43px;
   line-height: 50px;
@@ -1020,12 +1022,19 @@ summary {
 
 .lang_btn {
   margin-left: 20px;
-  width: 60px;
+  width: 64px;
   height: 50px;
-}
+  white-space: nowrap;
+ }
 
 .lang_label {
   width: 38px;
+}
+
+ .lang_actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #lang_select_to_second {
