@@ -927,8 +927,7 @@ summary {
 .payment-agree_input:focus,
 .lang_btn:focus {
   outline: 1px solid blue;
-  border-radius: 4px;
-}
+ }
 
 .help_adress a:hover {
   text-decoration: underline;
